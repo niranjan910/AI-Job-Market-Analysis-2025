@@ -56,7 +56,9 @@ The dataset consists of over 15,000 AI job listings from diverse industries and 
 
 - Salaries increase with experience level, education, and remote work flexibility  
 - Small and medium companies offer competitive salaries, especially for remote roles  
-- FinTech and Healthcare sectors provide the highest compensation  
+- FinTech and Healthcare sectors provide the highest compensation
+
+![Average Salary by Experience Level](image/salary_by_experience.png)
 
 ### 2. Roles and Skills in Demand
 
