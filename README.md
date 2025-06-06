@@ -15,7 +15,6 @@ This project provides a detailed analysis of the global AI job market in 2025. T
 
 **Deliverables:**  
 - Python notebook: `AI_CareerScope.ipynb`  
-- Executive presentation: `AI Career Scope Documentation.pdf`
 
 ---
 
@@ -93,10 +92,16 @@ The dataset consists of over 15,000 AI job listings from diverse industries and 
 
 ## Assumptions and Notes
 
-- Entries missing salary data (~5%) were excluded  
-- Skill and salary insights are derived from clean and complete listings  
-- Automation risk assessment is based on external predictive models and not included in this dataset  
-- Remote work status standardized manually for consistency  
+The dataset represents AI-related job postings globally for the year 2025. 
+- 'Salary_USD' is assumed to be the standardized salary across all roles and countries, converted to USD.
+- 'Remote_Ratio' is treated as a categorical variable with values [0, 50, 100] representing on-site, hybrid, and fully remote roles.
+-  'Required_Skills' is a multi-label text field; skill extraction was performed using basic keyword matching.
+- 'Application_Duration' is calculated as the number of days between 'Posting_Date' and 'Application_Deadline'.
+- 'Application_Duration_Category' is a binned version of 'Application_Duration' to simplify trend analysis.
+- Time-based columns like 'Posting_Month' and 'Application_Month' were derived from the respective datetime fields.
+- All null values were handled during data cleaning and were either removed or imputed as appropriate.
+- Outliers in continuous variables (e.g., extremely high salaries) were retained to preserve real-world variability.
+- Visualizations focus on the top 5–10 categories for clarity where appropriate (e.g., top job titles or industries). 
 
 ---
 
