@@ -60,6 +60,8 @@ The dataset consists of over 15,000 AI job listings from diverse industries and 
 
 ![Average Salary by Experience Level](image/salary_by_experience.png)
 
+![Salary by Company Size and Remote Ratio](image/salary_company_remote.png)
+
 ### 2. Roles and Skills in Demand
 
 - Most frequent job titles: AI Engineer, Data Scientist, ML Researcher  
