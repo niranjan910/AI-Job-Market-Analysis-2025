@@ -68,9 +68,6 @@ Remote AI jobs pay around 20% more than onsite roles. Industries like Healthcare
 * **San Francisco** offers a balanced mix of remote and onsite roles.
 * **Paris** and **London** favor remote options, while **Sydney** and **Singapore** lean toward onsite roles.
 * Remote-friendly culture is strong but varies widely by location.
-
-![Location_and_Remote_Work_Patterns](images/Remote_Friendly_Jobs_by_Location.png)
-
 ---
 
 ### Automation Risk and Future Growth
