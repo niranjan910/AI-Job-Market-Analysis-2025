@@ -53,8 +53,6 @@ Remote AI jobs pay around 20% more than onsite roles. Industries like Healthcare
 * **Finance**, **Telecom**, and **Entertainment** maintain moderate demand.
 * **Transportation** had the least job postings (~39), indicating sector-specific adoption rates.
 
-![Industry Count Distribution](images/Industry_count_distribution.png)
-
 ---
 
 ### Skill Requirements
