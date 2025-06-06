@@ -3,13 +3,6 @@
 - Author: Niranjan
 - Date: 04 June 2025
 
-# Project Background
-
-# AI Job Market Analysis
-
-- Author: Niranjan  
-- Date: 26 April 2025
-
 ---
 
 # Project Background
