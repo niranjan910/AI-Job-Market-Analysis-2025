@@ -1,105 +1,100 @@
-# AI-Job-Market-Analysis-2025
+# 🌍 AI Job Market Analysis (2025)
 
-- Author: Niranjan
-- Date: 04 June 2025
-
----
-
-# Project Background
-
-This project explores the AI job market all over the world, focusing on global hiring trends, salary distributions, remote work patterns, and skills in demand. As a Data Analyst working within the AI and tech employment sector, the goal was to provide actionable insights that support strategic hiring, career planning, and workforce development initiatives.
-
-Insights and recommendations are provided on the following key areas:
-
-* **Industry Trends**  
-* **Skill Requirements**  
-* **Geographic and Remote Work Patterns**  
-* **Automation Risk and Future Growth**
-
-The Python notebooks used to inspect, clean, and analyze the data can be found here: `AI_CareerScope.ipynb`  
-An executive presentation summarizing the results can be found here: `AI Career Scope Documentation.pdf`
+**Author**: Niranjan  
+**Date**: 04 June 2025  
 
 ---
 
-# Data Structure & Initial Checks
+## 📌 Project Overview
 
-The primary data fields are as follows:
+This project analyzes the global **AI job landscape in 2025**, focusing on compensation trends, required skills, job formats (remote/on-site), hiring regions, and automation risks. The aim is to generate **data-driven insights** to help organizations, policymakers, and job seekers align their strategies with emerging workforce patterns in AI.
 
-* **Job Title** – Role designation for each listing  
-* **Industry** – Employer's sector classification  
-* **Required Skills** – Technical and soft skills demanded  
-* **Salary Range** – Annual compensation in USD  
-* **Work Type** – Remote, Hybrid, or Onsite  
-* **Company Size** – Employer size classification  
-* **Location** – Country and city of the job  
-* **Automation Risk** – AI's potential to replace the role  
-* **Growth Projections** – Estimated demand in the future  
+📁 Deliverables:
+- Python notebook: `AI_CareerScope.ipynb`
+- Executive presentation: `AI Career Scope Documentation.pdf`
 
 ---
 
-# Executive Summary
+## 📊 Data Summary
 
-### Overview of Findings
+The dataset contains 15,000+ job listings from across industries and regions. Key fields include:
 
-Remote AI jobs pay around 20% more than onsite roles. Industries like Healthcare AI and FinTech are leading adoption, while cities such as San Francisco, Bangalore, and London are the top job hubs. AI-specific skills are in high demand, with machine learning and cybersecurity at the forefront. Entry-level and repetitive roles face greater automation risk, while specialized roles show strong future potential.
-
----
-
-# Insights Deep Dive
-
-### Industry Trends
-
-* **Manufacturing** leads with ~58 job roles, followed closely by **Education** and **Technology** sectors.
-* **Finance**, **Telecom**, and **Entertainment** maintain moderate demand.
-* **Transportation** had the least job postings (~39), indicating sector-specific adoption rates.
-
----
-
-### Skill Requirements
-
-* **Project Management**, **Cybersecurity**, and **Python** are the most frequently required skills.
-* **Machine Learning**, **UX/UI Design**, **Sales**, and **Data Analysis** follow closely.
-* Soft skills like **Communication** and hybrid skills like **Marketing** show a strong multidisciplinary demand.
+- **Job_Title** – AI role designation  
+- **Salary_USD** – Annual compensation (standardized)  
+- **Experience_Level** – Junior to Executive  
+- **Required_Skills** – Technical/soft skills listed in posting  
+- **Employment_Type** – Full-time, Contract, etc.  
+- **Company_Size** – Small, Medium, Large  
+- **Remote_Ratio** – Fully Remote, Hybrid, On-site  
+- **Industry** – Hiring company’s sector  
+- **Education_Required** – Minimum qualification  
+- **Application_Duration** – Time the job was open for applications  
+- **Location & Country** – Job location  
+- **Posting_Month / Deadline_Month** – Timeline features  
 
 ---
 
-### Location and Remote Work Patterns
+## 📈 Executive Summary
 
-* **San Francisco** offers a balanced mix of remote and onsite roles.
-* **Paris** and **London** favor remote options, while **Sydney** and **Singapore** lean toward onsite roles.
-* Remote-friendly culture is strong but varies widely by location.
----
+### 🔍 Key Findings at a Glance:
 
-### Automation Risk and Future Growth
-
-* Roles like **AI Researcher**, **Product Manager**, and **HR Manager** show **low automation risk**, supported by high AI adoption.
-* Roles such as **Sales Manager** and **Marketing Specialist** are more vulnerable due to routine tasks.
-* Technical roles remain resilient, and AI is seen more as an enhancer than a replacer of jobs.
-
+- **Remote AI jobs offer ~20% higher salaries** than on-site ones  
+- **Healthcare, FinTech, and Tech sectors** lead in salary and hiring  
+- **Top locations**: San Francisco, Bangalore, London, Berlin  
+- **High-paying skills**: Machine Learning, Deep Learning, NLP, Python  
+- **Entry-level and repetitive roles face higher automation risk**  
+- **Application deadlines typically range from 10–30 days**, peaking mid-year  
 
 ---
 
-# Recommendations
+## 💡 Deep Dive into Insights
 
-* Focus upskilling on high-demand AI domains like **NLP**, **Computer Vision**, and **AI Strategy**.  
-* Companies should offer **remote-first flexibility** to attract top-tier AI talent.  
-* **Reskilling programs** are needed to move talent from high-risk to growth-oriented roles.  
-* Governments and institutions should invest in **AI education and workforce transformation initiatives**.
+### 💰 1. Salary Drivers in the AI Job Market
+
+- Salary increases with **experience level**, **education**, and **remote work**  
+- **Small & mid-sized companies** offer more remote flexibility — and higher salaries for remote roles  
+- **FinTech & Healthcare** pay significantly more than Education or Government sectors  
+
+### 👨‍💻 2. Top Roles & Skills in Demand
+
+- Most common job titles: **Data Scientist**, **AI Engineer**, **ML Engineer**  
+- Top skill signals for high pay: **Machine Learning**, **Python**, **Deep Learning**, **Cloud**, **NLP**  
+- Skill + experience interaction shows **sharp salary jumps** at senior levels  
+
+### 🌐 3. Remote vs. On-Site Patterns
+
+- 70%+ of **Contract & Full-Time jobs** now offer remote options  
+- Remote roles are **more prevalent in medium-sized companies**  
+- Trend shows **global shift toward hybrid/flexible AI employment models**
+
+### 🤖 4. Automation Risk & Future Growth
+
+- **Entry-level and repetitive tasks** most at risk  
+- Roles like **AI Strategist**, **ML Ops Engineer**, and **AI Product Manager** show **long-term career viability**  
+- Education + upskilling are key to **career resilience**
+
+### ⏳ 5. Hiring Timelines & Application Behavior
+
+- Most job postings occur between **March–July**  
+- Companies allow ~**2–4 weeks** for application submission  
+- **High-paying roles** typically remain open for shorter durations — **indicating urgency**
 
 ---
 
-# Assumptions and Caveats
+## ⚠️ Assumptions & Caveats
 
-* Less than 5% missing salary data was dropped instead of imputed.  
-* Skill-based analyses used only complete listings to ensure quality.  
-* Automation risk scores were taken from ML models and may contain predictive bias.  
-* Remote vs Onsite classifications were manually standardized in some cases.
+- ~5% salary nulls were dropped instead of imputed  
+- Only **clean and complete skill entries** were analyzed for salary/skill insights  
+- Automation risk estimates are based on **external predictive models** (may carry bias)  
+- Remote/Onsite labels were standardized manually for consistency
 
 ---
 
-## 📬 Contact
+## 💬 Let’s Connect
 
-For queries or collaborations:
+📧 **Email**: [niranjan991100@gmail.com](mailto:niranjan991100@gmail.com)  
+🔗 **LinkedIn**: [linkedin.com/in/niranjan-k-a83517229](https://www.linkedin.com/in/niranjan-k-a83517229/)  
 
-* **Email**: [niranjan991100@gmail.com](mailto:niranjan991100@gmail.com)  
-* **LinkedIn**: [https://www.linkedin.com/in/niranjan-k-a83517229/](https://www.linkedin.com/in/niranjan-k-a83517229/)
+---
+
+> 🚀 _This project was created as part of a data analytics journey to explore real-world AI workforce patterns. Feel free to explore, fork, or reach out!_
