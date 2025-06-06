@@ -66,7 +66,9 @@ The dataset consists of over 15,000 AI job listings from diverse industries and 
 
 - Most frequent job titles: AI Engineer, Data Scientist, ML Researcher  
 - Key skills correlating with higher pay include Machine Learning, Python, NLP, Deep Learning, Cloud  
-- Advanced skills combined with seniority result in significant salary jumps  
+- Advanced skills combined with seniority result in significant salary jumps
+
+![Top 10 AI Job Titles](image/top_job_titles.png)
 
 ### 3. Geographic and Work Format Trends
 
