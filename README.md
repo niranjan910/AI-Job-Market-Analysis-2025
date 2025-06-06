@@ -86,6 +86,9 @@ The dataset consists of over 15,000 AI job listings from diverse industries and 
 - Typical application windows range between 14 and 25 days  
 - High-paying roles often have shorter application periods, indicating hiring urgency  
 
+![Job Postings by Month](image/job_postings_by_month.png)
+
+![Application Duration Distribution](image/application_duration_distribution.png)
 ---
 
 ## Assumptions and Notes
