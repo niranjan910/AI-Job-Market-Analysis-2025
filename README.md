@@ -61,8 +61,6 @@ Remote AI jobs pay around 20% more than onsite roles. Industries like Healthcare
 * **Machine Learning**, **UX/UI Design**, **Sales**, and **Data Analysis** follow closely.
 * Soft skills like **Communication** and hybrid skills like **Marketing** show a strong multidisciplinary demand.
 
-![Skill_Requirements](images/Distribution_of_Required_skills.png)
-
 ---
 
 ### Location and Remote Work Patterns
