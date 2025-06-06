@@ -76,7 +76,6 @@ Remote AI jobs pay around 20% more than onsite roles. Industries like Healthcare
 * Roles such as **Sales Manager** and **Marketing Specialist** are more vulnerable due to routine tasks.
 * Technical roles remain resilient, and AI is seen more as an enhancer than a replacer of jobs.
 
-![Automation_Risk_and_Future_Growth](images/Automation_Risk_by_JobTitle_and_AI_Adoption.png)
 
 ---
 
