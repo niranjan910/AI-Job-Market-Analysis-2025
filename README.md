@@ -76,6 +76,10 @@ The dataset consists of over 15,000 AI job listings from diverse industries and 
 - Onsite roles remain common in government and education sectors  
 - Increasing adoption of hybrid and flexible work arrangements globally  
 
+![Top 10 Hiring Locations](image/top_hiring_locations.png)
+
+![Work Format Distribution](image/work_format_distribution.png)
+
 ### 4. Hiring Timelines and Application Behavior
 
 - Peak job posting months are March through July  
