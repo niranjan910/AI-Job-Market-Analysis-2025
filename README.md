@@ -7,33 +7,33 @@
 
 ## Project Overview
 
-This project presents an analytical view of the global AI job market in 2025. The focus is on understanding trends in compensation, in-demand skills, work formats (remote vs. onsite), regional hiring patterns, and the risk of automation. The objective is to generate data-driven insights to support:
+This project provides a detailed analysis of the global AI job market in 2025. The focus is on understanding compensation trends, in-demand skills, work formats (remote vs. onsite), hiring locations, and application behavior. The insights aim to guide:
 
-- Strategic hiring and compensation decisions for organizations
-- Career planning for professionals
-- Policy formulation for AI workforce development
+- Organizational hiring and compensation strategies  
+- Career planning for AI professionals  
+- Policy decisions around AI workforce development  
 
-**Deliverables:**
-- Python notebook: `AI_CareerScope.ipynb`
+**Deliverables:**  
+- Python notebook: `AI_CareerScope.ipynb`  
 - Executive presentation: `AI Career Scope Documentation.pdf`
 
 ---
 
 ## Data Summary
 
-The dataset includes over 15,000 AI job listings across multiple regions and industries. Key data fields:
+The dataset consists of over 15,000 AI job listings from diverse industries and regions. Key fields include:
 
-- `Job_Title`: AI role designation  
-- `Salary_USD`: Annual compensation (standardized)  
-- `Experience_Level`: From entry-level to executive roles  
-- `Required_Skills`: Technical and soft skills specified in the posting  
+- `Job_Title`: Role designation  
+- `Salary_USD`: Annual standardized salary  
+- `Experience_Level`: Entry to executive level  
+- `Required_Skills`: Skills listed in job postings  
 - `Employment_Type`: Full-time, contract, freelance, etc.  
-- `Company_Size`: Small, medium, or large companies  
-- `Remote_Ratio`: Fully remote, hybrid, or onsite  
-- `Industry`, `Location`, `Country`  
-- `Education_Required`: Minimum educational qualifications  
-- `Application_Duration`: Time the application window remained open  
-- `Posting_Month`, `Deadline_Month`: Timeline indicators  
+- `Company_Size`: Small, medium, large  
+- `Company_Location`: Job location city or region  
+- `Remote_Ratio`: Onsite, hybrid, fully remote  
+- `Education_Required`: Minimum education qualifications  
+- `Posting_Month`: Month job was posted  
+- `Application_Duration`: Days the job posting remained open  
 
 ---
 
@@ -41,60 +41,59 @@ The dataset includes over 15,000 AI job listings across multiple regions and ind
 
 ### Key Insights
 
-- Remote AI roles offer approximately 20% higher salaries compared to onsite roles  
-- FinTech, Healthcare, and Technology sectors lead in salary ranges and job availability  
-- San Francisco, Bangalore, London, and Berlin are the leading hubs for AI hiring  
-- High-paying skills include Machine Learning, Deep Learning, NLP, and Python  
-- Entry-level and repetitive roles are at higher risk of automation  
-- Application durations typically range from 10 to 30 days, with peak job postings occurring mid-year  
+- Remote roles offer approximately 20% higher salaries than onsite roles  
+- FinTech, Healthcare, and Technology sectors dominate in salary and job volume  
+- Top hiring locations include San Francisco, Bangalore, London, and Berlin  
+- Highly valued skills: Machine Learning, Python, NLP, Deep Learning, Cloud Computing  
+- Entry-level roles face higher automation risk (based on external research)  
+- Most job postings appear between March and July, with average application windows of 14 to 25 days  
 
 ---
 
 ## Detailed Insights
 
 ### 1. Talent and Salary Optimization
-- Salaries increase with higher experience levels, education, and remote work flexibility  
-- Small and medium-sized companies offer more remote roles with competitive pay  
-- FinTech and Healthcare sectors provide higher compensation compared to other industries  
+
+- Salaries increase with experience level, education, and remote work flexibility  
+- Small and medium companies offer competitive salaries, especially for remote roles  
+- FinTech and Healthcare sectors provide the highest compensation  
 
 ### 2. Roles and Skills in Demand
-- Common job titles: AI Engineer, Data Scientist, ML Researcher  
-- High-value skills: Machine Learning, Python, NLP, Deep Learning, Cloud Computing  
-- Combination of advanced skills and seniority leads to substantial salary increases  
+
+- Most frequent job titles: AI Engineer, Data Scientist, ML Researcher  
+- Key skills correlating with higher pay include Machine Learning, Python, NLP, Deep Learning, Cloud  
+- Advanced skills combined with seniority result in significant salary jumps  
 
 ### 3. Geographic and Work Format Trends
-- Remote work is more prevalent among medium-sized tech firms  
-- Onsite roles are still dominant in government and education sectors  
-- A global trend toward hybrid and flexible work formats is evident  
 
-### 4. Automation Risk and Career Growth
-- Entry-level support and routine roles are more prone to automation  
-- Strategic and niche roles like AI Product Manager and ML Ops Engineer offer long-term career potential  
-- Upskilling is essential to remain relevant in a rapidly evolving AI landscape  
+- Medium-sized tech companies have higher prevalence of remote jobs  
+- Onsite roles remain common in government and education sectors  
+- Increasing adoption of hybrid and flexible work arrangements globally  
 
-### 5. Hiring Timelines and Application Behavior
-- Most job postings are released between March and July  
-- The average application window spans 14 to 25 days  
-- High-paying roles tend to have shorter application periods, indicating urgency in hiring  
+### 4. Hiring Timelines and Application Behavior
+
+- Peak job posting months are March through July  
+- Typical application windows range between 14 and 25 days  
+- High-paying roles often have shorter application periods, indicating hiring urgency  
 
 ---
 
 ## Assumptions and Notes
 
-- Records with missing salary values (~5%) were excluded from the analysis  
-- Skill-based insights are based on complete and clean listings only  
-- Automation risk scores are sourced from external models and may carry predictive bias  
-- Manual standardization was applied to remote and onsite job classifications for consistency  
+- Entries missing salary data (~5%) were excluded  
+- Skill and salary insights are derived from clean and complete listings  
+- Automation risk assessment is based on external predictive models and not included in this dataset  
+- Remote work status standardized manually for consistency  
 
 ---
 
 ## Contact
 
-For further information or collaboration inquiries:
+For inquiries or collaboration:  
 
 **Email**: [niranjan991100@gmail.com](mailto:niranjan991100@gmail.com)  
 **LinkedIn**: [linkedin.com/in/niranjan-k-a83517229](https://www.linkedin.com/in/niranjan-k-a83517229/)
 
 ---
 
-*This project demonstrates the application of end-to-end data analytics to uncover key trends in the global AI job market for 2025. Feel free to explore or reach out for discussions and opportunities.*
+*This analysis demonstrates the use of data analytics to uncover trends shaping the global AI job market in 2025. Feel free to explore the code and reach out for discussion.*
