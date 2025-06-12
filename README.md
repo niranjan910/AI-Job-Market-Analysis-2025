@@ -14,7 +14,7 @@ This project provides a detailed analysis of the global AI job market in 2025. T
 - Policy decisions around AI workforce development  
 
 **Deliverables:**  
-- Python notebook: `AI_CareerScope.ipynb`  
+- Python notebook: `AI_job_market_analysis.ipynb`  
 
 ---
 
