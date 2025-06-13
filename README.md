@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This project provides a detailed analysis of the global AI job market in 2025. The focus is on understanding compensation trends, in-demand skills, work formats (remote vs. onsite), hiring locations, and application behavior. The insights aim to guide:
+This project provides a detailed analysis of the global AI job market in 2025 using Python. The focus is on understanding compensation trends, in-demand skills, work formats (remote vs. onsite), hiring locations, and application behavior. The insights aim to guide:
 
 - Organizational hiring and compensation strategies  
 - Career planning for AI professionals  
